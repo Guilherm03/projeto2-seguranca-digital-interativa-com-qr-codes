@@ -16,8 +16,8 @@ const Hero = () => {
       <div className="hero-content">
         <div className="hero-text">
           <h1>Proteja-se no <span className="gradient-text">Mundo Digital</span></h1>
-          <h3>Projeto de Segurança da Informação Desenvolvido por Guilherme e Helder</h3>
           <p>Descubra como navegar na internet com segurança e aprenda as melhores práticas para proteger seus dados pessoais e privacidade online.</p>
+          <h3>Projeto de Segurança da Informação Desenvolvido por Guilherme e Helder</h3>
           <div className="hero-buttons">
             <button className="btn btn-primary" onClick={() => scrollToSection('quiz')}>
               <i className="fas fa-play"></i>
@@ -62,5 +62,6 @@ const Hero = () => {
 };
 
 export default Hero;
+
 
 
