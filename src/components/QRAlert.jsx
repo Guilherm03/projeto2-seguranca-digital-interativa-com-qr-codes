@@ -18,6 +18,7 @@ const QRAlert = ({ onContinue }) => {
             <i className="fas fa-exclamation-triangle"></i>
           </div>
           <h2>⚠️ Alerta de Segurança</h2>
+          <h3>Projeto de Segurança da Informação Desenvolvido por Guilherme e Helder 2DS</h3>
         </div>
         
         <div className="qr-alert-content">
@@ -58,3 +59,4 @@ const QRAlert = ({ onContinue }) => {
 };
 
 export default QRAlert;
+
